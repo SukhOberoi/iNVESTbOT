@@ -1,5 +1,5 @@
 async function fetchStockPrices() {
-    const apiKey = 'c646703221msh8b53034e9b8cda2p11e293jsnc783643ca0dd'; // Replace with your RapidAPI key
+    const apiKey = 'RAPID_API_KEY_HERE'; // Replace with your RapidAPI key
     const symbols = ['TSLA', 'AAPL', 'GOOGL', 'MSFT', 'AMZN', 'HSBC', 'HDB', 'IBN', 'MMYT', 'YTRA']; // Replace with the stock symbols you want to fetch
     const stockInfoContainer = document.getElementById('stock-info');
 
